@@ -1,0 +1,411 @@
+body {
+  background: #0e1015;
+  font: 15px/30px "merriweather-regular", serif;
+  font-weight: normal;
+  color: #575859;
+}
+
+a, a:visited {
+  color: #f26522;
+}
+a:hover, a:focus {
+  color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "raleway-bold", sans-serif;
+  color: #252525;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  margin: 18px 0 15px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 0;
+  letter-spacing: -1px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 17px;
+  line-height: 30px;
+}
+h5 {
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h6 {
+  font-size: 13px;
+  line-height: 30px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+p {
+  margin: 15px 0 15px 0;
+}
+p img {
+  margin: 0;
+}
+p.lead {
+  font: 17px/33px "merriweather-light", serif;
+  color: #707273;
+}
+em {
+  font: 15px/30px "merriweather-italic", serif;
+  font-style: normal;
+}
+strong, b {
+  font: 15px/30px "merriweather-bold", serif;
+  font-weight: normal;
+}
+small {
+  font-size: 11px;
+  line-height: inherit;
+}
+blockquote {
+  margin: 18px 0px;
+  padding-left: 40px;
+  position: relative;
+}
+blockquote:before {
+  content: "\201C";
+  opacity: 0.45;
+  font-size: 80px;
+  line-height: 0px;
+  margin: 0;
+  font-family: arial, sans-serif;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+blockquote p {
+  font-family: georgia, serif;
+  font-style: italic;
+  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+blockquote cite {
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 18px;
+}
+blockquote cite:before {
+  content: "\2014 \0020";
+}
+blockquote cite a, blockquote cite a:visited {
+  color: #707273;
+  border: none;
+}
+abbr {
+  font-family: "merriweather-bold", serif;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: .5px;
+  color: #7d7e80;
+}
+pre, code {
+  font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+code {
+  padding: 3px;
+  background: #ecf0f1;
+  color: #707273;
+  border-radius: 3px;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+mark {
+  background: #FFF49B;
+  color: #000;
+}
+hr {
+  border: solid white;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 23px 0 12px;
+  height: 0;
+}
+ul, ol {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+ul {
+  list-style: disc;
+  margin-left: 17px;
+}
+dl {
+  margin: 0 0 15px 0;
+}
+dt {
+  margin: 0;
+  color: #f26522;
+}
+dd {
+  margin: 0 0 0 20px;
+}
+form {
+  margin-bottom: 24px;
+}
+fieldset {
+  margin: 0 0 24px 0;
+  padding: 0;
+  border: none;
+}
+input, button {
+  -webkit-font-smoothing: antialiased;
+}
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+textarea, 
+select {
+  display: block;
+  padding: 12px 15px;
+  margin: 0 0 12px 0;
+  border: 0;
+  outline: none;
+  vertical-align: middle;
+  color: #a3a4a6;
+  font-family: "raleway-regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 3px;
+  max-width: 100%;
+  background: transparent;
+  border: 3px solid #a9aaab;
+}
+textarea {
+  min-height: 162px;
+}
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="email"]:focus, 
+textarea:focus {
+  background: white;
+}
+label, legend {
+  font: 15px/30px "raleway-bold", sans-serif;
+  margin: 12px 0;
+  color: #252525;
+  display: block;
+}
+label span, legend span {
+  color: #575859;
+  font: 15px/30px "merriweather-bold", serif;
+}
+input[type="checkbox"], input[type="radio"] {
+  font-size: 15px;
+  color: #575859;
+}
+input[type="checkbox"] {
+  display: inline;
+}
+
+#about {
+  background: white;
+  padding-top: 120px;
+  padding-bottom: 0;
+}
+#about .about-content {
+  max-width: 934px;
+}
+#about h3 {
+  font: 16px/36px "raleway-heavy", sans-serif;
+  text-transform: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+#about p {
+  color: #707273;
+}
+#about .left {
+  padding-right: 30px;
+}
+#about .right {
+  padding-left: 30px;
+}
+#contact {
+  background: #12151b;
+  padding-top: 120px;
+  padding-bottom: 102px;
+  overflow: hidden;
+}
+#contact .row {
+  max-width: 784px;
+}
+#contact h1 {
+  color: white;
+}
+
+/* contact form */
+#contact form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#contact label {
+  font: 14px/30px "raleway-heavy", sans-serif;
+  color: #7d7e80;
+  display: none;
+}
+#contact label span {
+  color: #f26522;
+  display: inline-block;
+}
+#contact input, 
+#contact textarea, 
+#contact select {
+  padding: 18px 20px;
+  margin-bottom: 42px;
+  font-size: 15px;
+  width: 100%;
+  background: #12151b;
+  border: 3px solid #575859;
+}
+#contact textarea {
+  height: 252px;
+}
+#contact input:focus, 
+#contact textarea:focus, 
+#contact select:focus {
+  color: white;
+  border-color: white;
+}
+#contact button.submit {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 18px 20px;
+  margin-bottom: 36px;
+  line-height: 24px;
+  display: block;
+  border: 3px solid #f26522;
+  color: #f26522;
+  background: transparent;
+}
+#contact button.submit:hover {
+  color: white;
+  background: #f26522;
+}
+
+/* for ie9 and lower */
+.ie #contact label {
+  display: block;
+}
+.ie #contact input, .ie #contact select {
+  margin-bottom: 6px;
+}
+.ie #contact textarea {
+  margin-bottom: 48px;
+}
+footer {
+  padding-top: 36px;
+  padding-bottom: 42px;
+  font-size: 13px;
+  line-height: 24px;
+  position: relative;
+  color: #3C4142; 
+}
+footer a, footer a:visited {
+  color: #a43b0a;
+}
+footer a:hover, footer a:focus {
+  color: white;
+}
+footer h3 {
+  font: 13px/24px "raleway-bold", sans-serif;
+  margin-bottom: 0;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+footer p {
+  margin: 12px 0;
+}
+
+footer .footer-about {
+  padding-right: 60px;
+}
+footer .right-cols .columns {
+  width: 50%;
+  word-wrap: break-word;
+}
+footer ul {
+  margin: 12px 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul li {
+  margin: 0;
+  padding-left: 0;
+  line-height: 24px;
+}
+footer ul li a, footer ul li a:visited {
+  color: #3C4142;
+}
+footer .copyright {
+  margin: 0;
+  padding: 24px 18px 6px 18px;
+  clear: both;
+}
+
+/* back to top */
+footer #go-top {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  z-index: 900;
+  display: none;
+}
+header {
+  height: 72px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 990;
+  text-align: center;
+  background: #12151B;
+  background: rgba(18, 21, 27, 0.5);
+}
+footer #go-top a {
+  display: block;
+  padding: 12px 30px;
+  background: #d44d0d;
+  color: white;
+  text-align: center;
+  font: 12px/24px sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer #go-top a span {
+  margin-right: 10px;
+}
+footer #go-top a:hover {
+  background: #faec09;
+  color: #252525;
+}
+
